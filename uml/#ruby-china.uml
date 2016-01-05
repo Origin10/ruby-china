@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>RailsDependency</ID>
+  <OriginalElement>#ruby-china</OriginalElement>
+  <nodes>
+    <node x="151.5" y="1225.5">SiteConfig</node>
+    <node x="602.0" y="1225.5">Setting</node>
+    <node x="723.5" y="1225.5">Ability</node>
+    <node x="983.5" y="814.5">Notification::Base</node>
+    <node x="1798.5" y="825.5">Notification::Mention</node>
+    <node x="1404.5" y="322.0">Topic</node>
+    <node x="594.5" y="1021.0">Note</node>
+    <node x="827.5" y="-30.0">Page</node>
+    <node x="929.0" y="410.0">Node</node>
+    <node x="183.5" y="163.5">Site</node>
+    <node x="1206.5" y="243.0">Section</node>
+    <node x="301.5" y="1225.5">CacheVersion</node>
+    <node x="602.5" y="-8.0">PageVersion</node>
+    <node x="1179.5" y="734.5">Notification::TopicReply</node>
+    <node x="-19.0" y="1214.5">Authorization</node>
+    <node x="846.0" y="1225.5">Photo</node>
+    <node x="730.0" y="643.5">Notification::NodeChanged</node>
+    <node x="650.0" y="185.5">User</node>
+    <node x="972.5" y="934.5">Notification::Follow</node>
+    <node x="451.0" y="243.0">Location</node>
+    <node x="-24.5" y="163.0">SiteNode</node>
+    <node x="461.5" y="1225.5">ExceptionLog</node>
+    <node x="1904.5" y="174.5">Comment</node>
+    <node x="1508.0" y="723.5">Reply</node>
+    <node x="1006.5" y="665.5">Notification::Topic</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Topic" target="Reply">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Section" target="Node">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Node" target="Section">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Location" target="User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="PageVersion" target="User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Notification::NodeChanged" target="Node">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Site" target="User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Notification::Follow" target="User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Comment" target="User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Site" target="SiteNode">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Notification::TopicReply" target="Reply">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="SiteNode" target="Site">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Notification::Topic" target="Notification::Base">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Topic" target="User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Notification::Follow" target="Notification::Base">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Node" target="User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Notification::TopicReply" target="Notification::Base">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Reply" target="Notification::Topic">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Notification::NodeChanged" target="Notification::Topic">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Page" target="PageVersion">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Reply" target="Notification::Base">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Node" target="Notification::Topic">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Notification::Mention" target="Notification::Base">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Notification::NodeChanged" target="Notification::Base">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Note" target="User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Topic" target="Node">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3183890577507599" x="701.5131264916467" y="337.5704057279237" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Association fields</Category>
+    <Category>Migration fields</Category>
+    <Category>System DB fields</Category>
+    <Category>Own fields</Category>
+  </Categories>
+</Diagram>
+
